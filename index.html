@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="prestado.css">
+    <link rel="stylesheet" href="style.css">
+
+   
+    
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Descifrador</title>
+</head>
+
+<body>
+    <header>
+        
+        <h1 id="titulo">encriptador</h1>
+        <img src="Logo.png" class="logo">
+    </header>
+    
+    <main>
+        <section class="contenedor_cajas">
+            
+            <div id= caja-texto class="caja-texto">
+                <textarea id="area-mensaje" placeholder="Sólo minúsculas, sin acentos, ni caracteres especiales"></textarea>
+
+            <div class="botones">
+                <button class="botonCifrar" onclick="cifrarTextocifrarTexto()">encriptar</button>
+                <button class="botonDescifrar" onclick="descifrarTexto()">Descencriptar</button>
+            </div>
+
+            </div>
+
+            <div id= caja-resultado class="caja-resultado">
+                <textarea id="area-resultado" readonly="readonly"></textarea>        
+                <button class="botonCopiar" onclick="copiarTexto()">Copiar</button>
+                <img src="Muñeco.png" class="munheco">
+            </div>  
+        </section>
+    </main>
+    
+
+    <footer>
+        
+        <div class="copyright">
+            <p>&copy Copyright franco bestetti. todos los derechos reservados. - 2022</p>
+        
+        
+    </footer>
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
